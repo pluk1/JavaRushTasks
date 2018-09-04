@@ -21,11 +21,6 @@ public class Solution {
 
                 File inDir = new File(file.getAbsolutePath());
 
-                for (File file1 : inDir.listFiles()
-                ) {
-                    fileList.add(inDir.getAbsolutePath());
-
-                }
             }
             fileList.add(file.getAbsolutePath());
         }
