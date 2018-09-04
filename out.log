@@ -22583,3 +22583,11 @@ Caused by: java.net.UnknownHostException: javarush.ru: nodename nor servname pro
 2018-09-04 12:43:09 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
 2018-09-04 12:44:09 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
 2018-09-04 12:45:10 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
+2018-09-04 12:45:19 INFO  ApacheHttpClient.testConnection(187) - responseCode = 200
+2018-09-04 12:45:19 INFO  ApacheHttpClient.testConnection(198) - result = true
+2018-09-04 12:46:09 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
+2018-09-04 12:47:09 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
+2018-09-04 12:48:09 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
+2018-09-04 12:49:09 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
+2018-09-04 12:50:09 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
+2018-09-04 12:51:09 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200

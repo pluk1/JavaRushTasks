@@ -21,6 +21,8 @@ public class Solution {
 
                 File inDir = new File(file.getAbsolutePath());
 
+
+
             }
             fileList.add(file.getAbsolutePath());
         }
