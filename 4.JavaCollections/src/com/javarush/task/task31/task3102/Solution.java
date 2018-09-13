@@ -1,7 +1,8 @@
 package com.javarush.task.task31.task3102;
 
-import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,24 +12,20 @@ import java.util.List;
 public class Solution {
     public static List<String> getFileTree(String root) throws IOException {
 
-        File path = new File(root);
-
         List<String> fileList = new ArrayList<>();
 
-        for (File file : path.listFiles()
-        ) {
-            if (file.isDirectory()){
 
-                File inDir = new File(file.getAbsolutePath());
+        Files.walk(Paths.get(root))
+                .filter(Files::isRegularFile)
+                .forEach(f -> fileList.add(f.toString()));
 
-            }
-            fileList.add(file.getAbsolutePath());
-        }
         return fileList;
 
     }
 
-    public static void main(String[] args) {
-        
+    public static void main(String[] args) throws IOException {
+
+        getFileTree("/Users/cartman/Documents").forEach(f -> System.out.println(f));
+
     }
 }
