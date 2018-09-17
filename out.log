@@ -31032,3 +31032,42 @@ java.lang.NullPointerException
 2018-09-17 16:17:22 INFO  ApacheHttpClient.testConnection(198) - result = true
 2018-09-17 16:17:22 INFO  ApacheHttpClient.testConnection(187) - responseCode = 200
 2018-09-17 16:17:22 INFO  ApacheHttpClient.testConnection(198) - result = true
+2018-09-17 16:17:38 INFO  ApacheHttpClient.testConnection(187) - responseCode = 200
+2018-09-17 16:17:38 INFO  ApacheHttpClient.testConnection(198) - result = true
+2018-09-17 16:18:10 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
+2018-09-17 16:18:10 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
+2018-09-17 16:18:10 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
+2018-09-17 16:18:11 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
+2018-09-17 17:18:14 ERROR TerminalMode.setEnabled(106) - Mode EightBitInput is not implemented, setting to true
+2018-09-17 17:18:14 INFO  ApacheHttpClient.testConnection(187) - responseCode = 200
+2018-09-17 17:18:14 INFO  ApacheHttpClient.testConnection(198) - result = true
+2018-09-17 17:18:31 INFO  ApacheHttpClient.testConnection(187) - responseCode = 200
+2018-09-17 17:18:31 INFO  ApacheHttpClient.testConnection(198) - result = true
+2018-09-17 17:18:42 INFO  ApacheHttpClient.testConnection(187) - responseCode = 200
+2018-09-17 17:18:42 INFO  ApacheHttpClient.testConnection(198) - result = true
+2018-09-17 17:18:59 ERROR TerminalTextBuffer.getLine(264) - Attempt to get line out of bounds: -26 < -25
+2018-09-17 17:19:00 ERROR TerminalMode.setEnabled(106) - Mode EightBitInput is not implemented, setting to true
+2018-09-17 17:19:00 INFO  ApacheHttpClient.testConnection(187) - responseCode = 200
+2018-09-17 17:19:00 INFO  ApacheHttpClient.testConnection(198) - result = true
+2018-09-17 17:19:00 ERROR TerminalTextBuffer.getLine(264) - Attempt to get line out of bounds: -22 < 0
+2018-09-17 17:19:38 ERROR TerminalTextBuffer.getLine(264) - Attempt to get line out of bounds: -8 < 0
+2018-09-17 17:19:38 INFO  ApacheHttpClient.testConnection(187) - responseCode = 200
+2018-09-17 17:19:38 INFO  ApacheHttpClient.testConnection(198) - result = true
+2018-09-17 17:19:48 INFO  ApacheHttpClient.testConnection(187) - responseCode = 200
+2018-09-17 17:19:48 INFO  ApacheHttpClient.testConnection(198) - result = true
+2018-09-17 17:20:41 ERROR ApacheHttpClient.processExceptionSendEvent(102) - (super) Ошибка во время отправки ивента на сервер.
+2018-09-17 17:20:41 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
+2018-09-17 17:20:41 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
+2018-09-17 17:20:41 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
+2018-09-17 17:20:42 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
+2018-09-17 17:20:42 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
+2018-09-17 17:20:42 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
+2018-09-17 17:20:42 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
+2018-09-17 17:20:42 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
+2018-09-17 17:20:42 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
+2018-09-17 17:20:42 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
+2018-09-17 17:20:42 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
+2018-09-17 17:20:42 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
+2018-09-17 17:20:43 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
+2018-09-17 17:20:43 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
+2018-09-17 17:20:43 INFO  ApacheHttpClient.sendEvent(470) - responseCode = 200
