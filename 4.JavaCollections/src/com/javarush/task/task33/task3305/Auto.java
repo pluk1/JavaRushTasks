@@ -11,7 +11,6 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo;
         @JsonSubTypes.Type(value=Car.class, name="com.javarush.task.task33.task3305.Car")
 })
 
-
 public abstract class Auto {
     protected String name;
     protected String owner;
