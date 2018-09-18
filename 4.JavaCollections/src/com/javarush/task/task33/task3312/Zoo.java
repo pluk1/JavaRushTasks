@@ -24,7 +24,7 @@ public class Zoo {
         public String name;
     }
 
-    @JsonTypeName
+    @JsonTypeName("dog")
     public static class Dog extends Animal {
 
         public double barkVolume;
@@ -34,7 +34,7 @@ public class Zoo {
         }
     }
 
-    @JsonTypeName
+    @JsonTypeName("cat")
     public static class Cat extends Animal {
         boolean likesCream;
         public int lives;
